@@ -1,0 +1,33 @@
+{
+  "name": "node-fetch-retry-callback",
+  "version": "1.0.0",
+  "description": "Retry with callback and exponential delay library for node-fetch",
+  "scripts": {
+    "test": "mocha ./test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-zys/node-fetch-retry-callback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/code-zys/node-fetch-retry-callback/issues"
+  },
+  "homepage": "https://github.com/code-zys/node-fetch-retry-callback/blob/master/README.md",
+  "keywords": [
+    "node",
+    "fetch",
+    "retry",
+    "request",
+    "microservice"
+  ],
+  "author": "Codezys <info@codezys.com (https://github.com/code-zys)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "should": "^13.2.3",
+    "timeout-signal": "^1.1.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
